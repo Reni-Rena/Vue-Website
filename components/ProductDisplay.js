@@ -22,7 +22,8 @@ app.component('product-display1', {
           <ul>
             <li v-for="detail in details">{{ detail }}</li>
           </ul>
-  
+
+          <section class="colors">
           <div 
             v-for="(variant, index) in variants" 
             :key="variant.id" 
@@ -30,6 +31,7 @@ app.component('product-display1', {
             class="color-circle" 
             :style="{ backgroundColor: variant.color }">
           </div>
+          </section>
           
           <button 
             class="button" 
@@ -85,3 +87,5 @@ app.component('product-display1', {
         }
     }
 })
+
+// Project done by Thaïs Bordessoul and Matthéo Buffey for Advanced Web Programming class at ILAC

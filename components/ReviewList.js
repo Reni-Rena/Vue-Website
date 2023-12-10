@@ -16,11 +16,11 @@ app.component('review-list', {
           <br/>
           "{{ review.review }}"
           <br/>
-          <!-- solution -->
           Recommended: {{ review.recommend }}
-          <!-- solution -->
         </li>
       </ul>
     </div>
   `
   })
+
+// Project done by Thaïs Bordessoul and Matthéo Buffey for Advanced Web Programming class at ILAC

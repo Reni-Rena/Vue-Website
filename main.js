@@ -11,3 +11,5 @@ const app = Vue.createApp({
         }
     }
 })
+
+// Project done by Thaïs Bordessoul and Matthéo Buffey for Advanced Web Programming class at ILAC

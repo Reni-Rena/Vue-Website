@@ -21,12 +21,19 @@ body {
   cursor: pointer;
 }
 
+option, #rating, #recommend{
+  color:#d8d8d8;
+  text-align: center;
+}
+
 .cart {
-  margin: 25px 100px;
+  margin-top: 10px;
+  margin-right: 20px;
   float: right;
   border: 1px solid #d8d8d8;
   padding: 10px 30px;
-  background-color: rgb(203, 57, 57);
+  color: rgb(254, 253, 253);
+  background-color: rgb(188, 18, 18);
   -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   box-shadow: 2px 15px -12px rgba(0, 0, 0, 0.57);
@@ -38,6 +45,7 @@ body {
   margin-top: 8px;
   border: 2px solid #000000;
   border-radius: 50%;
+  margin: 10px;
 }
 
 
@@ -106,6 +114,7 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-top: 100px;
 }
 
 .product-image,
@@ -165,7 +174,13 @@ textarea {
 
 ul {
   list-style-type: none;
+  padding-left: 0;
 }
+
+.colors{
+  display: flex;
+}
+
 
 @media only screen and (max-width: 600px) {
   .container {
@@ -182,3 +197,6 @@ ul {
     width: 90%;
   }
 }
+
+
+/*Project done by Thaïs Bordessoul and Matthéo Buffey for Advanced Web Programming class at ILAC*/
