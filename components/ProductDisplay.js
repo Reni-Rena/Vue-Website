@@ -47,7 +47,7 @@ app.component('product-display1', {
       return {
           product: 'Cats',
           selectedVariant: 0,
-          details: ['Discover our young, strong, and cute kittens available for adoption, ready to bring joy and energy to your home.', 'Are you looking for a feline companion? Check out our adorable kittens, young, strong, and full of vitality, ready to find a new home.','Are you looking for a feline companion? Check out our adorable kittens, young, strong, and full of vitality, ready to find a new home.'],
+          details: ['Discover our young, strong, and cute kittens available for adoption, ready to bring joy and energy to your home.', 'Are you looking for a feline companion? Check out our adorable kittens, young, strong, and full of vitality, ready to find a new home.','Adopt a vibrant cat! Our young, strong, and cute cats are seeking a loving home where they can unleash their boundless energy.'],
           variants: [
             { id: 36, color: 'orange', image: './assets/images/orange_cats.jpg', quantity: 10 },
             { id: 37, color: 'black', image: './assets/images/black_cats.jpg', quantity: 6 },
