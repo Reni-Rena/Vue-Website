@@ -53,7 +53,7 @@ app.component('product-display1', {
           variants: [
             { id: 36, color: 'orange', image: './assets/images/orange_cats.jpg', quantity: 10 },
             { id: 37, color: 'black', image: './assets/images/black_cats.jpg', quantity: 6 },
-            { id: 38, color: 'white', image: './assets/images/white_cats.jpg', quantity: 0 },
+            { id: 38, color: 'white', image: './assets/images/white_cats.jpg', quantity: 2 },
           ],
           reviews: []
       }
